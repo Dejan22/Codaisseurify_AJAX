@@ -31,7 +31,7 @@
 
 .thumbnail.product>img,
 .thumbnail.product a>img {
-    max-height: 300px;
+    max-height: inherit;
 }
 
 .thumbnail .category-title {
