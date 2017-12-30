@@ -1,0 +1,48 @@
+.navbar.navbar-default.navbar-static-top {
+    background-color: rgb(49, 103, 165);
+}
+
+.navbar.navbar-default.navbar-static-top a {
+    color: #fff;
+}
+
+.navbar.navbar-default.navbar-static-top .dropdown-menu li a,
+.navbar.navbar-default.navbar-static-top .dropdown-menu a:hover {
+    color: #000;
+}
+
+.filter {
+    list-style-type: none;
+}
+
+.thumbnail {
+    background-color: rgb(49, 103, 165);
+    padding: 0;
+}
+
+.thumbnail.category .caption {
+    padding: 0 0 12px 0;
+}
+
+.thumbnail.product {
+    height: 420px;
+    padding: 20px;
+}
+
+.thumbnail.product>img,
+.thumbnail.product a>img {
+    max-height: 300px;
+}
+
+.thumbnail .category-title {
+    text-align: center;
+}
+
+.thumbnail .category-title a {
+    color: #fff;
+}
+
+.caption .btn {
+    left: 43%;
+    position: relative;
+}
