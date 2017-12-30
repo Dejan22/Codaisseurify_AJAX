@@ -5,9 +5,19 @@
     <% @artist.songs.each do |song| %>
         <ul>
             <li><%= song.title %>
-            <%= link_to "Delete", artist_song_path( @artist, song ), class: "btn btn-default", method: :delete, data: { confirm: "Are you sure?" } %></li>
+              <tr id='<%= song.id %>'>
+                <td><%= song.title %></td>
+                <td class='destroy'>Delete song</td>
+                <td><br></td>
+              </tr>
         </ul>
     <% end %>
+  </tbody>
+
+    <%= render 'songs/new' %>
+    <%= link_to "Delete Artist", artist_path(@artist.id), method: :delete, data: { confirm: "Are you sure?"} %>
+    <br>
+  <%= link_to "[All Artists]", root_path %>
 </div>
 
 <div class="col-md-8">
