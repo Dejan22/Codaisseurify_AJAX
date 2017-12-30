@@ -46,6 +46,7 @@ group :development, :test, :production do
   gem 'faker'
   gem 'carrierwave', '0.11.2'
   gem 'cloudinary', '1.2.3'
+  gem 'rails_12factor'
 end
 
 group :development do

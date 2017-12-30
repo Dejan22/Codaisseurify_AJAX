@@ -5,3 +5,7 @@ class ArtistsControllerTest < ActionDispatch::IntegrationTest
   #   assert true
   # end
 end
+
+RSpec.describe ArtistsController, type: :controller do
+
+end
